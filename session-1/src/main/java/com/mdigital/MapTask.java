@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class MapTask {
     static void main() {
-        HashMap<String, String[]> movies = new HashMap();
+        HashMap<String, String[]> movies = new HashMap<>();
 
         movies.put("wall-e", new String[]{"2010", "Steven Spielberg"});
         movies.put("cars", new String[]{"2008", "Martin Scorsese"});
